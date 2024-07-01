@@ -1,0 +1,62 @@
+.wrapper {
+  max-width: 480px;
+  margin-inline: auto;
+  padding: 40px;
+}
+.heading {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.form-field {
+  margin-bottom: 16px;
+}
+.button-field {
+  margin-top: 40px;
+}
+.text-center {
+  text-align: center;
+}
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.chat-container p {
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 30pt;
+  margin-bottom: 20px;
+  color: blue;
+}
+
+.chat-item {
+  border: 1px solid gray;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  text-align: center;
+  position: relative;
+  background-color:lightgreen;
+}
+
+.chat-item .delete-btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+  color: red;
+}
+
+.chat-item .timestamp {
+  font-size: 0.8em;
+  color: #666;
+  text-align: right;
+}

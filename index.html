@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.2/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="chat-container">
+        <h1 class="title">Chatアプリ</h1>
+        <p>名前：<input type="text" id="userName" /></p>
+        <p>ひとこと：<textarea id="text"></textarea></p>
+        <button id="send" type="button">送信</button>
+  
+    <div id="output"></div>
+  
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script type="module" src="js/script.js"></script>
+  </body>
+
+</html>
